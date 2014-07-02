@@ -1,4 +1,5 @@
-== WFTDA.tv prototype
+WFTDA-dot-TEEVEE prototype
+====
 
 This site was used as a prototype to launch the new Broadcasting Program in 2012. It was eventually replaced with a more accessible CMS, but this repo exists as an example of a simple prototype used to launch a big idea and an example of how to integrate with the Rinxter JS API.
 
@@ -6,7 +7,8 @@ This project includes some basic templates split out into SSI includes. It's a q
 
 This would probably only be helpful if you are toying with the Stats Repo provided through Rinxter or if you are curious how to set up a quick and dirty static site. I am mostly putting this here to get `rinx-reports.js` shared somewhere to make it easier to talk about.
 
-=== Requirements
+Requirements
+====
 
 Site uses the following:
 
