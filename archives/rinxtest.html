@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+        <!--#include virtual="/includes/head.shtml" -->
+        <!--#include virtual="/includes/nav.shtml" -->
+        <div id="main" class="row">
+            <!--#include virtual="/includes/sidebar.shtml" -->
+            <div id="content" class="span9">
+                <div id="viewer">
+                    <div style="background-color:black;color:white;width:700px; height:360px">Viewer goes here</div>
+                </div>
+                <div class="row">
+                    <div class="span4">
+                        <div class="well">
+                            <div class="page_header">
+                                <h2>Bout Summary</h2>
+                            </div>
+		                    <p>Dev Note: The Rinxter grid has an attribute called <code>data-bout-id</code> where you'd drop in the bout id for the page. <blockquote>&lt;div id="rinxter" <strong>data-bout-id="173"</strong> class="span5"&gt;&lt;/div&gt;</blockquote> Then there's a list for the tabs and in the corresponding tab you drop in the grid you need. Example: <blockquote>&lt;div id="<strong>bout_summary</strong>"&gt;&lt;/div&gt;</blockquote>for the Bout Summary grid in the main tab.</p>
+		                    <p>Finally there's the Auto Refresh toggle at the bottom of the tabs that shows up during live events (not completed/archived ones). I've defaulted it to off and left it to the user to switch on. I think this will save on bandwidth and empowers the user to use it or turn it off if they don't like it.</p>
+		                    <p><strong>Note: Top Penalties doesn't have any data for bouts with no penalty tracking. This is an issue for live event stats slated for the Big 5 which will only have lineups and score live (at least that's what was announced).</strong></p>
+                        </div>
+                    </div>
+                    <div id="rinxter" data-bout-id="173" class="span5">
+                        <ul id="bout_tabs" class="nav nav-pills">
+                            <li class="active"><a href="#summary" data-toggle="pill">Summary</a></li>
+                            <li><a href="#jammers" data-toggle="pill">Jammers</a></li>
+                            <li><a href="#penalties" data-toggle="pill">Penalties</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="summary" class="tab-pane active">
+                                <div id="bout_summary"></div>
+                            </div>
+                            <div id="jammers" class="tab-pane">
+                                <div id="top_jammers"></div>                            
+                            </div>
+                            <div id="penalties" class="tab-pane">
+                                <div id="top_penalties"></div>
+                            </div>
+                        </div>
+                        <div class="note">
+							<p><a href="/stats/173.html" target="_blank" class="full_stats_link btn btn-inverse">View Complete Stats</a></p>
+							<p id="refresh_link">Auto Refresh: <a href="#" class="toggle_refresh">(off)</a></p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#include virtual="/includes/footer.shtml" -->
+        <!--#include virtual="/includes/rinxter.shtml" -->
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                WFTDA.utils.show_refresh();
+            });
+        </script>
+    </div>
+</body>
+</html>

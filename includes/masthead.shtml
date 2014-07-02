@@ -1,0 +1,11 @@
+        <header id="masthead" class="clearfix">
+            <div id="logo"><a href="/"><img src="/img/wftdatv_logo.png" alt="wftda.tv"></a></div>
+            <section class="pull-right hide-phone">
+                <div id="leaderboard">
+                    <script type="text/javascript" charset="utf-8">
+                        OA_show(273163);
+                    </script>
+                </div>
+                <h2 id="tagline"><img src="/img/tagline.png" alt="Real. Strong. Athletic. Revolutionary. Live!"></h2>
+            </section>
+        </header>

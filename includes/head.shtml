@@ -1,0 +1,16 @@
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+    <title>WFTDA.tv</title>
+
+    <link rel="image_src" type="image/png" href="/img/wftda-tv-logo.png">
+    <meta name="description" content="Welcome to WFTDA.tv, the only online broadcast channel dedicated to bringing you the finest action in women's flat track roller derby.">
+
+    <meta name="viewport" content="width=960, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/application.min.css" type="text/css">
+
+    <script type="text/javascript" src="http://d1.openx.org/spcjs.php?id=63170&amp;charset=UTF-8"></script>
+</head>
+<body>
+    <div id="page" class="container">
+        <!--#include virtual="/includes/masthead.shtml" -->

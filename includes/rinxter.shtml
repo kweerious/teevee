@@ -1,0 +1,6 @@
+		<script type="text/javascript" src="/js/rinx-reports.js"></script>
+		<script type="text/javascript">
+            jQuery(document).ready(function() {
+                WFTDA.rinx.init();
+            });
+		</script>

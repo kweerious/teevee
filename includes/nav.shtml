@@ -1,0 +1,21 @@
+        <div id="mainnav" class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <ul class="nav">
+                        <li><a href="/">WFTDA.tv</a></li>
+                        <li><a href="/schedule/">Schedule</a></li>
+                        <li><a href="/archives/">Archives</a></li>
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/about/faq.html">FAQs</a></li>
+                    </ul>
+                    <ul class="nav pull-right hidden-phone">
+                        <li><a href="http://www.facebook.com/wftda"><img src="/img/facebook.png" width="18" height="18" alt="Facebook"></a></li>
+                        <li><a href="http://twitter.com/wftda"><img src="/img/twitter.png" width="18" height="18" alt="Twitter"></a></li>
+                        <li><a href="http://www.youtube.com/thewftda"><img src="/img/youtube.png" width="18" height="18" alt="Youtube"></a></li>
+                        <li><a href="http://wftda.tumblr.com/"><img src="/img/tumblr.png" width="18" height="18" alt="Tumblr"></a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="http://wftda.com">wftda.com</a></li>
+					</ul>
+                </div>
+            </div>
+        </div>

@@ -1,0 +1,9 @@
+output/*
+archives/*
+!archives/bout.html
+!archives/index.html
+!archives/multibout.html
+!archives/rinxtest.html
+stats/*
+!stats/full.html
+bootstrap.zip
